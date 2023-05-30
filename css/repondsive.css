@@ -1,0 +1,135 @@
+/* Mobile & Tablet */
+
+@media(max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .mt-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        color: #fff;
+        align-items: center;
+    }
+    .mt-logo-img {
+        width: 10%;
+    }
+    .mt-logo-img img {
+        width: 100%;
+    }
+    .mt-header-nav {
+        display: flex;
+        align-items: center;
+    }
+    .mt-header-nav i {
+        padding: 10px;
+    }
+    .show-on-mobile-tablet {
+        display: flex;
+    }
+    .padding-on-mt {
+        padding: 16px 0;
+    }
+    .right_conlai_ov-mt {
+        border: none;
+    }
+    .middle-ft-mt {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+    }
+    .item-nav-mt {
+        width: 100%;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #696969;
+    }
+    .below_ft-mt {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left_blft-mt {
+        justify-content: flex-start;
+        font-size: 13px;
+    }
+    .right_blft-mt {
+        justify-content: flex-start;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .grid-2-t {
+        display: grid !important;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+    }
+    .grid-1-t {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 10px;
+    }
+    .m-5-t {
+        max-width: 100%;
+    }
+    .info-nav-t {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .slider-content-t {
+        width: 60%;
+    }
+    .black-bgr-t {
+        padding: 80px 0;
+    }
+}
+
+
+/* Mobile */
+
+@media(max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .pd-10-m {
+        padding: 10px 0;
+    }
+    .slider-title-m {
+        width: 100%;
+        top: 80%;
+    }
+    .slider-content-m {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .info-nav-m {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .black-bgr-m {
+        padding: 200px 0;
+    }
+}
+
+
+/* Pc & Laptop */
+
+@media (min-width: 1023px) {
+    .hide-on-lap {
+        display: none;
+    }
+}
